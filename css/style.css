@@ -1,11 +1,23 @@
-p {
-    margin-top: 35px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+.navbar-brand {
+    font-family: Ms Madi, san-serif;
 
-p {
     font-size: x-large;
 }
+
+body {
+
+    background-color:white;
+}
+
+
+p {
+    font-family: Bebas Neue, san-serif;
+
+    color: grey;
+
+    font-size: xx-large;
+}
+
 
 .container {
     width: 50%;
@@ -21,4 +33,89 @@ button[type=submit] {
 
 .custom-form-size {
     width: 100%;
+}
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+.col-4 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+
+.col-4 img{
+    width: 100%;
+}
+
+footer {
+	background-color: #2a2928;
+	color: white;
+	padding: 25px;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+
+footer ul {
+	display: flex;
+	gap: 10px;
+}
+footer li {
+	display: block;
+}
+
+footer div {
+	display: flex;
+	align-items: flex-start;
+}
+
+footer section {
+	margin: 10%;
+}
+
+footer section header {
+	font-size: 1.3em;
+}
+
+fieldset {
+
+    background-color: white;
+    
+    padding: 20px;
+
+    border-radius: 10px;
+}
+
+form {
+
+    background-color: white;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    text-align: center;
+
+    font-size: x-large;
+}
+
+.form-check-input {
+    border-color: black;
+}
+
+.smaller-image {
+
+    width: 200px;
+
+
 }
