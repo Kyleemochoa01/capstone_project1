@@ -1,3 +1,12 @@
+.navbar {
+font-family: Bebas neue, sans-serif;
+
+color: aliceblue;
+
+font-size: large;
+}
+
+
 .navbar-brand {
     font-family: Ms Madi, san-serif;
 
@@ -10,12 +19,14 @@ body {
 }
 
 
-p {
+.container-6 {
     font-family: Bebas Neue, san-serif;
 
-    color: grey;
+    color:black;
 
-    font-size: xx-large;
+    font-size: xxx-large;
+
+    text-align: center;
 }
 
 
@@ -133,4 +144,67 @@ form {
 .container-py-5 {
     padding-left: 12%;
     padding-right: 5%;
+}
+
+.cart-page {
+    margin: 80px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+    color: white;
+    background: black;
+    font-weight: normal;
+
+}
+
+td {
+    padding: 10px 5px;
+}
+
+td input {
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+td a {
+    color: black;
+    font-size: x-small;
+}
+
+td img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10 px;
+}
+
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table {
+    border-top: 3px solid black;
+    width: 100%;
+    max-width: 350px;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+th :last-child {
+    text-align: right;
 }
