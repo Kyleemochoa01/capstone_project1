@@ -15,3 +15,8 @@ The fourth page is my inventory
 
 The fifth page is my checkout 
 ![checkout.html](images/checkout.jpeg)
+
+
+One intresting piece of html/css i wrote was my table for my checkout tab 
+![checkout.html](images/table%20html.JPG)
+![checkout.html](images/tablecss.JPG)
