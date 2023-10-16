@@ -1,3 +1,5 @@
+
+/* 15% discount nav bar*/
 .navbar {
 font-family: Bebas neue, sans-serif;
 
@@ -6,13 +8,14 @@ color: aliceblue;
 font-size: large;
 }
 
-
+/* navigation nav bar*/
 .navbar-brand {
     font-family: Ms Madi, san-serif;
 
     font-size: x-large;
 }
 
+/* Home page css */
 body {
 
     background-color:white;
@@ -29,7 +32,7 @@ body {
     text-align: center;
 }
 
-
+/* signup tab*/
 .container {
     width: 50%;
 
@@ -46,25 +49,7 @@ button[type=submit] {
     width: 100%;
 }
 
-.small-container{
-    max-width: 1080px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-
-
-.col-4 {
-    flex-basis: 25%;
-    padding: 10px;
-    min-width: 200px;
-    margin-bottom: 50px;
-}
-
-.col-4 img{
-    width: 100%;
-}
-
+/* footer*/
 footer {
 	background-color: #2a2928;
 	color: white;
@@ -98,6 +83,7 @@ footer section header {
 	font-size: 1.3em;
 }
 
+/* signin tab*/
 fieldset {
 
     background-color: white;
@@ -124,6 +110,7 @@ form {
     border-color: black;
 }
 
+/*inventory tab*/
 .smaller-image {
 
     width: 200px;
@@ -146,6 +133,7 @@ form {
     padding-right: 5%;
 }
 
+/*Check out tab*/
 .cart-page {
     margin: 80px auto;
 }
